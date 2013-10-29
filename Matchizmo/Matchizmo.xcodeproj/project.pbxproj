@@ -22,6 +22,7 @@
 		A3C5F33D1820725D00F14CC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C5F31C1820725D00F14CC0 /* UIKit.framework */; };
 		A3C5F3451820725D00F14CC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C5F3431820725D00F14CC0 /* InfoPlist.strings */; };
 		A3C5F3471820725D00F14CC0 /* MatchizmoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C5F3461820725D00F14CC0 /* MatchizmoTests.m */; };
+		A3C5F352182072F900F14CC0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C5F351182072F900F14CC0 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		A3C5F3421820725D00F14CC0 /* MatchizmoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchizmoTests-Info.plist"; sourceTree = "<group>"; };
 		A3C5F3441820725D00F14CC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3C5F3461820725D00F14CC0 /* MatchizmoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchizmoTests.m; sourceTree = "<group>"; };
+		A3C5F350182072F900F14CC0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A3C5F351182072F900F14CC0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				A3C5F32A1820725D00F14CC0 /* Main_iPhone.storyboard */,
 				A3C5F32D1820725D00F14CC0 /* Main_iPad.storyboard */,
 				A3C5F3301820725D00F14CC0 /* CardGameViewController.h */,
+				A3C5F350182072F900F14CC0 /* Card.h */,
+				A3C5F351182072F900F14CC0 /* Card.m */,
 				A3C5F3311820725D00F14CC0 /* CardGameViewController.m */,
 				A3C5F3331820725D00F14CC0 /* Images.xcassets */,
 				A3C5F31F1820725D00F14CC0 /* Supporting Files */,
@@ -257,6 +262,7 @@
 				A3C5F3291820725D00F14CC0 /* CardGameAppDelegate.m in Sources */,
 				A3C5F3321820725D00F14CC0 /* CardGameViewController.m in Sources */,
 				A3C5F3251820725D00F14CC0 /* main.m in Sources */,
+				A3C5F352182072F900F14CC0 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
